@@ -1,6 +1,7 @@
 
 // import AppRoute from './components/CRUD/AppRoute'
-import AppRoute from './components/CRUD/AppRoute'
+import ExpenseTracer from './Expense Tracer/ExpenseTracer'
+// import AppRoute from './components/CRUD/AppRoute'
 // import Crud from './components/CRUD/Crud'
 // import Practice from './components/Practice/Practice'
 
@@ -15,10 +16,11 @@ function App() {
     <>
       {/* <Practice/> */}
       {/* <Crud /> */}
-      <AppRoute/>
+      {/* <AppRoute/> */}
       {/* <Practice1/> */}
       {/* <Hooks /> */}
       {/* <RealLife/> */}
+      <ExpenseTracer/>
     </>
   )
 }

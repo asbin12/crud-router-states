@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(78, 71, 71);
+}
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding-top: 8vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mainHeading {
+  color: white;
+  font-size: 44px;
+  font-weight: 600;
+}
+.balanceBtnWrapper {
+  padding-top: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.balanceBtnWrapper .balance {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+  /* background-color: rgb(43, 55, 98); */
+  /* background-color: #000; */
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+.balanceBtnWrapper .btn {
+  background-color: #000;
+  padding: 5px 7px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+.inpField {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e6e8e9;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.inpField input {
+  padding: 4px 8px;
+  border: 1px solid #e6e8e9;
+  border-radius: 4px;
+  outline: none;
+  font-size: 18px;
+  color: #575454;
+  font-weight: 500;
+  width: 100%;
+}
+.radioInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.radioInputCenter {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.radioInput input,
+.radioInput label {
+  cursor: pointer;
+}
+.inpField .btn {
+  background-color: #000;
+  padding: 5px 7px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+.expenseIncomeBox {
+  display: flex;
+  gap: 30px;
+  padding-top: 2vh;
+}
+.expenseIncomeBox span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 80%;
+}
+.expenseIncomeBox .expenseBox {
+  margin-right: 0;
+}
+.expenseIncomeBox span .incomeGreen {
+  color: green;
+}
+.expenseIncomeBox span .expenseRed {
+  color: red;
+}
+.transactionSearch {
+  width: 30%;
+  outline: none;
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  background-color: #e6e8e9;
+  border: 1px solid #e6e8e9;
+}
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  background-color: white;
+  padding: 10px 12px;
+  border: 1px solid #e6e8e9;
+  width: 30%;
+  border-radius: 12px;
+}
+.income {
+  border-right: 3px solid green;
+}
+.expense {
+  border-right: 3px solid red;
+}
+/* .balanceBtnWrapper .balance .balanceInNumber {
+} */
