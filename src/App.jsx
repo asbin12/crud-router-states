@@ -1,9 +1,13 @@
 
 // import AppRoute from './components/CRUD/AppRoute'
-import ExpenseTracer from './Expense Tracer/ExpenseTracer'
+// import ExpenseTracer from './Expense Tracer/ExpenseTracer'
+// import BgChanger from './components/bgchanger/BgChanger'
 // import AppRoute from './components/CRUD/AppRoute'
 // import Crud from './components/CRUD/Crud'
 // import Practice from './components/Practice/Practice'
+import TodoContext from './components/todoContext/Todo'
+
+// import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator"
 
 // import AppRoute from "./components/CRUD/AppRoute"
 // import Hooks from "./components/React Hooks/Hooks"
@@ -17,10 +21,13 @@ function App() {
       {/* <Practice/> */}
       {/* <Crud /> */}
       {/* <AppRoute/> */}
-      {/* <Practice1/> */}
+      {/* <Practice/> */}
       {/* <Hooks /> */}
       {/* <RealLife/> */}
-      <ExpenseTracer/>
+      {/* <ExpenseTracer/> */}
+      {/* <BgChanger/> */}
+      {/* <PasswordGenerator/> */}
+      <TodoContext/>
     </>
   )
 }
